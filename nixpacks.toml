@@ -1,5 +1,0 @@
-[phases.setup]
-aptPkgs = ["php8.2-mysql"]
-
-[phases.build]
-cmds = ["composer install --no-dev || true"]
