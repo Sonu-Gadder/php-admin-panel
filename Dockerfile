@@ -16,5 +16,4 @@ COPY . /var/www/html/
 
 RUN chown -R www-data:www-data /var/www/html
 
-# 🚨 THIS LINE IS CRITICAL
 CMD ["apache2-foreground"]
